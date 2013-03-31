@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+		xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+	<Description about="urn:mozilla:install-manifest">
+		<em:version>1.0.1</em:version>
+		<em:description></em:description>
+		<em:creator>Lotus</em:creator>
+		<em:name>BINGO! Search</em:name>
+		<em:id>bingo@linknextu.com</em:id>
+		<em:type>2</em:type>
+		<em:targetApplication>
+			<!-- Firefox -->
+			<Description>
+				<em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
+				<em:minVersion>6.0</em:minVersion>
+				<em:maxVersion>23.*</em:maxVersion>
+			</Description>
+		</em:targetApplication>
+		<em:iconURL>chrome://bingo/skin/icon_3g_32.png</em:iconURL>
+		<em:homepageURL>http://www.linknextu.com/</em:homepageURL>
+		<em:localized>
+            <Description>
+                <em:locale>en-US</em:locale>
+                <em:name>BINGO! Search</em:name>
+                <em:description>Generate search links at the search result pages,helping your search more conveniently</em:description> 
+            </Description>
+        </em:localized>
+        <em:localized>
+            <Description>
+                <em:locale>ja</em:locale>
+                <em:name>BINGO! 検索</em:name>
+                <em:description>
+                    検索結果ページで、検索リンクをせいせいして、簡単に切り替えて検索することができます。</em:description>
+                </Description>
+        </em:localized>
+         <em:localized>
+            <Description>
+                <em:locale>zh-TW</em:locale>
+                <em:name>BINGO! 搜索</em:name>
+                <em:description>在搜索结果页面生成搜索链接，实现简单切换和搜索。</em:description>
+            </Description>
+        </em:localized>
+        <em:localized>
+            <Description>
+                <em:locale>zh-CN</em:locale>
+                <em:name>BINGO! 搜索</em:name>
+                <em:description>在搜索结果页面生成搜索链接，实现简单切换和搜索。</em:description>
+            </Description>
+        </em:localized>
+	</Description>
+</RDF>

@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!DOCTYPE overlay SYSTEM "chrome://bingo/locale/Lat.dtd">
+<overlay id="bingo@linknextu.com" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul" >
+<script type="application/javascript" src="chrome://bingo/content/js/define.js"/>
+<script type="application/javascript" src="chrome://bingo/content/js/BinGoToolBar.js"/>
+<script type="application/javascript" src="chrome://bingo/content/js/BinGoMain.js"/>
+<script type="application/javascript" src="chrome://bingo/content/js/Bingo.js"/>
+<stringbundleset id="stringbundleset">
+	<stringbundle id="linknextu-string-bundle" src="chrome://bingo/locale/BinGoAssist.properties"/>
+</stringbundleset>
+<toolbarpalette id="BrowserToolbarPalette">  
+    <toolbarbutton id="bingoassist-toolbarbutton" tooltiptext="BINGO! Search" label="BINGO! Search"  oncommand="XULBinGoMultiSearchTabChrome.BrowserButtonContents.openAndReuseOneTabPerAttribute(event);"  class="toolbarbutton-1 chromeclass-toolbar-additional" />  
+</toolbarpalette>  
+</overlay>

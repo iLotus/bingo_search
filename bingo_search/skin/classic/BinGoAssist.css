@@ -1,0 +1,8 @@
+/* TODO */
+#bingoassist-toolbarbutton{
+  list-style-image: url("chrome://bingo/skin/icon_3g_24.png");
+}
+toolbar[iconsize="small"] bingoassist-toolbarbutton{
+ list-style-image: url("chrome://bingo/skin/icon_3g_24.png");
+}
+

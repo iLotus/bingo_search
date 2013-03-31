@@ -1,0 +1,19 @@
+content bingo content/
+
+overlay chrome://browser/content/browser.xul chrome://bingo/content/BinGoAssist.xul
+
+
+skin bingo classic/1.0 skin/classic/
+
+style chrome://browser/content/browser.xul chrome://bingo/skin/toolbar.css
+
+style chrome://global/content/customizeToolbar.xul chrome://bingo/skin/toolbar.css
+
+
+locale bingo ja-JP locale/ja-JP/
+
+locale bingo en-US locale/en-US/
+
+locale bingo zh-CN locale/zh-CN/
+
+locale bingo zh-TW locale/zh-TW/

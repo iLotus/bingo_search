@@ -1,0 +1,8 @@
+
+#bingoassist-toolbarbutton{
+   list-style-image: url("chrome://bingo/skin/icon.png");
+}
+toolbar[iconsize="small"] bingoassist-toolbarbutton{
+ list-style-image: url("chrome://bingo/skin/icon16.png");
+}
+
